@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<link href="../Mystyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('../images/Menu_14.jpg','../images/MenuG_05.jpg','../images/MenuG_04.jpg','../images/MenuG_03.jpg','../images/MenuG_02.jpg','../images/MenuG_01.jpg','../images/ImageL_02_13.jpg','../images/ImageL_03_13.jpg','../images/ImageL_01.jpg','../images/ImageL_04.jpg','../images/ImageL_05.jpg','../images/ImageL_06.jpg','../images/Logo/FPT_L_01.jpg','../images/Logo/DFY_L_01.jpg','../images/Logo/FPT_L_02.jpg','../images/Logo/FPT_L_04.jpg','../images/Logo/FPT_L_03.jpg','../images/Logo/DFY_L_02.jpg','../images/Logo/DFY_L_03.jpg','../images/Logo/DFY_L_04.jpg')">
+
+
+<div id="FRAME">
+    <div id="HEAD">
+        <div id="BHead"></div>
+        <div id="Facebook"></div>
+        <div id="Google"></div>
+        <div id="Twitter"></div>
+        <div id="Search"></div>
+        <div id="Logo"></div> 
+    </div>
+    <div id="MENU">
+        <div id="CMenu">
+        	<a href="Home.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','../images/MenuG_01.jpg',1)"><img src="../images/MenuPu_01.jpg" alt="Home" width="206" height="89" class="over" id="Image1"></a>
+         	<a href="About Me.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','../images/MenuG_02.jpg',1)"><img src="../images/MenuPi_02.jpg" alt="About me" width="206" height="101" class="over" id="Image2"></a>
+        	<a href="Portfolio.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','../images/MenuG_03.jpg',1)"><img src="../images/MenuPi_03.jpg" alt="Portfolio" width="206" height="105" class="over" id="Image3"></a>
+        	<a href="Contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','../images/MenuG_04.jpg',1)"><img src="../images/MenuPi_04.jpg" alt="Contact" width="206" height="104" class="over" id="Image4"></a>
+        	<a href="Sitemap.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','../images/MenuG_05.jpg',1)"><img src="../images/MenuPi_05.jpg" alt="Sitemap" width="206" height="89" class="over" id="Image5"></a>
+        </div>
+    </div>
+    
+    <div id="CONTENT">
+    	<div id="Image_M">
+        	<a href="Video/V1.html" target="MEDIA"><img src="../images/Media Career/V_Image_S01.jpg"></a>
+            <a href="Video/V2.html" target="MEDIA"><img src="../images/Media Career/V_Image_S02.jpg" class="M_distant"></a>
+            <a href="Video/V3.html" target="MEDIA"><img src="../images/Media Career/V_Image_S03.jpg" class="M_distant"></a>
+            <a href="Video/V4.html" target="MEDIA"><img src="../images/Media Career/V_Image_S04.jpg" class="M_distant"></a>
+        </div>
+        <div id="Media">
+        	<iframe width="600px" height="400px" src="Video/V1.html" name="MEDIA" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+        </div>
+        <div id="Text_Media"> Please choose your video you like on the right and press play button. Enjoy your video, thank you!
+        </div>
+        <div id="BACK_M"><a href="Home.html">BACK</a></div>
+    	        
+    </div>
+    
+     
+    <div id="FOOTER">
+        <div id="foot">Copyright © 2016 by BAT Inc. All rights reserved. View the best with 1280x1024 resolution.
+        </div>
+    </div>
+   
+</div>
+</body>
+</html>

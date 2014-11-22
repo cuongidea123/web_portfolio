@@ -1,0 +1,735 @@
+@charset "utf-8";
+
+@font-face {
+			font-family: OpeningNight-BAT;
+			src: url(Fonts/OpeningNight.ttf), url(Fonts/OpeningNight.eot);}
+			
+@font-face{	font-family: Banque-BAT;
+			src:url(Fonts/UTM%20BanqueR.ttf), url(Fonts/UTM%20BanqueR.eot);
+}
+body {
+	background-image: url(Stock/url2.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: 0px;
+}
+#FRAME {
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	height: 1024px;
+	width: 1200px;
+	margin: 0px auto;
+	position: relative;
+}
+
+/*------------CSS HOME----------------*/
+
+/*------------CSS HEAD----------------*/
+
+#HEAD {
+	height: 209px;
+	width: 1200px;
+	position: relative;
+	padding-left: 0px;
+}
+
+#Logo {
+	background-image: url(images/Logo_18.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 163px;
+	width: 205px;
+	left: 20px;
+	top: 21px;
+}
+#Search {
+	background-image: url(images/Logo_35.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 41px;
+	width: 338px;
+	left: 241px;
+	top: 143px;
+}
+#Twitter {
+	background-image: url(images/Logo_37.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 41px;
+	width: 43px;
+	left: 589px;
+	top: 143px;
+}
+#Google {
+	background-image: url(images/Logo_39.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 41px;
+	width: 42px;
+	left: 642px;
+	top: 143px;
+}
+#Facebook {
+	background-image: url(images/Logo_41.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 41px;
+	width: 41px;
+	left: 696px;
+	top: 143px;
+}
+#BHead {
+	background-image: url(images/Head_01.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 209px;
+	width: 1200px;
+}
+/*------------CSS MENU----------------*/
+#MENU {
+	position: relative;
+	height: 535px;
+	width: 225px;
+}
+#CMenu {
+	position: absolute;
+	height: 488px;
+	width: 207px;
+	left: 19px;
+	top: 24px;
+	float:left;
+}
+.over {float:left;
+}
+
+/*------------CSS CONTENT----------------*/
+
+#CONTENT {
+	position: absolute;
+	height: 758px;
+	width: 976px;
+	left:225px;
+	top:209px;
+}
+
+#ImageL {
+	position: absolute;
+	height: 302px;
+	width: 479px;
+	left: 107px;
+	top: 24px;
+}
+#ImageS1 {
+	position: absolute;
+	height: 93px;
+	width: 479px;
+	left: 107px;
+	bottom: 24px;
+	z-index:10;
+}
+#ImageS2 {
+	position: absolute;
+	height: 93px;
+	width: 479px;
+	left: 107px;
+	bottom: 24px;
+	z-index:9;
+}
+.distant {
+	padding-left: 11px;
+}
+.distant_S2 {
+	margin-left: 10px;
+}
+
+#Tittle1 {
+	position: absolute;
+	height: 43px;
+	width: 405px;
+	left: 137px;
+	bottom: 145px;
+	z-index:11;
+}
+#Tittle2 {
+	position: absolute;
+	height: 43px;
+	width: 405px;
+	left: 137px;
+	bottom: 145px;
+	z-index:9;
+}
+#Tittle3 {
+	position: absolute;
+	height: 43px;
+	width: 405px;
+	left: 137px;
+	bottom: 145px;
+	z-index:9;
+}
+#Tittle4 {
+	position: absolute;
+	height: 43px;
+	width: 479px;
+	left: 107px;
+	bottom: 145px;
+	z-index:10;
+}
+#Tittle5 {
+	position: absolute;
+	height: 43px;
+	width: 479px;
+	left: 107px;
+	bottom: 145px;
+	z-index:10;
+}
+#Tittle6 {
+	position: absolute;
+	height: 43px;
+	width: 479px;
+	left: 107px;
+	bottom: 145px;
+	z-index:10;
+}
+#Arrow1 {
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 26px;
+	width: 26px;
+	left: 61px;
+	bottom: 56px;
+}
+#Arrow2 {
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 25px;
+	width: 26px;
+	left: 607px;
+	bottom: 56px;
+}
+#BText1 {
+	font-family:OpeningNight-BAT;
+	background-image: url(images/BText_65.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 304px;
+	width: 256px;
+	top: 24px;
+	right: 20px;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: justify;
+}
+#BText2 {
+	font-family:OpeningNight-BAT;
+	background-image: url(images/BText_87.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 158px;
+	width: 256px;
+	right: 20px;
+	bottom: 24px;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: justify;
+}
+#CText1 {
+	position: absolute;
+	height: 265px;
+	width: 225px;
+	left: 16px;
+	top: 16px;
+	right: 16px;
+	bottom: 16px;
+}
+#CText2 {
+	position: absolute;
+	height: 124px;
+	width: 225px;
+	left: 16px;
+	top: 16px;
+	right: 16px;
+	bottom: 16px;
+	font-size: 16px;
+}
+
+/*------------CSS FOOTER----------------*/
+
+
+#FOOTER {
+	position: relative;
+	height: 57px;
+	width: 1200px;
+	text-align: center;
+	line-height: 55px;
+	font-family: OpeningNight-BAT;
+	font-size: 16px;
+	color:#FFFFFF;
+}
+#foot {
+	background-image: url(images/BGfoot.jpg);
+	background-repeat: repeat-x;
+	position: absolute;
+	height: 55px;
+	width: 1200px;
+}
+
+/*------------CSS ABOUT ME----------------*/
+#Character {
+	position: absolute;
+	height: 141px;
+	width: 481px;
+	left: 18px;
+	top: 24px;
+	float:left;
+}
+#C1, #C2 {float:left;}
+
+#Statistic {
+	position: absolute;
+	height: 281px;
+	width: 481px;
+	left: 18px;
+	top: 202px;
+}
+
+#Experience {
+	position: absolute;
+	height: 178px;
+	width: 457px;
+	top: 24px;
+	right: 20px;
+}
+#Skills {
+	position: absolute;
+	height: 311px;
+	width: 457px;
+	right: 20px;
+	bottom: 22px;
+}
+
+/*------------CSS PORTFOLIO----------------*/
+
+#Head_P {
+	position: absolute;
+	height: 122px;
+	width: 955px;
+	top: 24px;
+}
+#Body_P {
+	position: absolute;
+	height: 262px;
+	width: 955px;
+	top: 146px;
+	float:left;
+}
+
+#Foot_P {
+	position: absolute;
+	height: 127px;
+	width: 955px;
+	top: 408px;
+}
+#Tittle_P {
+	position:absolute;
+	font-family: Banque-BAT;
+	font-size: 30px;
+	height: 47px;
+	width: 551px;
+	right: 211px;
+	top: 35px;
+	color: #CD6A7C;
+	text-align: center;
+}
+#T_G {
+	font-family: Banque-BAT;
+	font-size: 30px;
+	position: absolute;
+	height: 37px;
+	width: 156px;
+	right: 700px;
+	top: 35px;
+	color: #CD6A7C;
+	text-align: center;
+}
+#T_L {
+	font-family: Banque-BAT;
+	font-size: 30px;
+	position: absolute;
+	height: 37px;
+	width: 156px;
+	right: 390px;
+	top: 35px;
+	color: #CD6A7C;
+	text-align: center;
+}
+#T_W {
+	font-family: Banque-BAT;
+	font-size: 30px;
+	position: absolute;
+	height: 37px;
+	width: 156px;
+	right: 76px;
+	top: 35px;
+	color: #CD6A7C;
+	text-align: center;
+}
+
+
+/*------------CSS CONTACT----------------*/
+
+#Pic_C {
+	position: absolute;
+	height: 323px;
+	width: 528px;
+	top: 24px;
+}
+#Info_C {
+	position: absolute;
+	height: 166px;
+	width: 528px;
+	left: 0px;
+	bottom: 22px;
+}
+#bgTable {
+	background: url(images/Contact/Contact_07.jpg);
+	position: absolute;
+	height: 489px;
+	width: 427px;
+	top: 24px;
+	right: 20px;
+	color: #FFFFFF;
+}
+#Table_Area {
+	font-family: OpeningNight-BAT;
+	position: absolute;
+	height: 450px;
+	width: 389px;
+	top: 20px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	font-size: 20px;
+}
+.survey {
+	text-align: center;
+
+}
+.distant_table {
+}
+.text-distant {
+	border-radius: 5px;
+	width: 250px;
+}
+
+.borde-radius {
+	border-radius: 5px;
+	width: 250px;
+	height: 100px;
+}
+.submit-reset-style {
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	color: #CD6A7C;
+	background-color: #FFFFFF;
+	font-family: OpeningNight-BAT;
+	font-size: 17px;
+	margin-top: 15px;
+}
+/*------------CSS GRAPHIC----------------*/
+
+#GFRAME {
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	height:1040px;
+	width: 1200px;
+	margin: 0px auto;
+	position: relative;
+}
+#GCONTENT {
+	position: absolute;
+	height: 790px;
+	width: 976px;
+	left:225px;
+	top:209px;
+}
+#GFOOTER {
+	position: absolute;
+	height: 57px;
+	width: 1200px;
+	top: 1000px;
+	text-align: center;
+	line-height: 55px;
+	font-family: OpeningNight-BAT;
+	font-size: 16px;
+	color:#FFFFFF;
+
+}#FrameG {
+	position: absolute;
+	height: 687px;
+	width: 934px;
+	left: 23px;
+	top: 21px;
+}
+.distant_G1 {
+	margin-left: 19px;
+
+
+}
+.distant_G2 {
+	padding-left: 19px;
+	padding-top: 20px;
+}
+#BACK_G {
+	font-size: 18px;
+	position: absolute;
+	height: 40px;
+	width: 50px;
+	right: 35px;
+	bottom: 10px;
+	font-family: OpeningNight-BAT;	
+}
+#Text_G {
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	width: 800px;
+	height: 40px;
+	font-family: OpeningNight-BAT;
+	color: #CD6A7C;
+	font-size: 20px;
+}
+
+/*------------CSS WEBSITE----------------*/
+#Tittle_W {
+	position: absolute;
+	height: 466px;
+	width: 744px;
+	left: 110px;
+	top: 46px;
+}
+#BACK_W {
+	font-size: 18px;
+	position: absolute;
+	height: 40px;
+	width: 50px;
+	right: 42px;
+	bottom: 10px;
+	font-family: OpeningNight-BAT;	
+}
+
+
+
+/*------------CSS LOGO----------------*/
+
+#LFRAME {
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	height:1000px;
+	width: 1200px;
+	margin: 0px auto;
+	position: relative;
+}
+#LCONTENT {
+	position: absolute;
+	height: 735px;
+	width: 976px;
+	left: 225px;
+	top: 211px;
+}
+#LFOOTER {
+	position: absolute;
+	height: 57px;
+	width: 1200px;
+	top: 945px;
+	text-align: center;
+	line-height: 55px;
+	font-family: OpeningNight-BAT;
+	font-size: 16px;
+	color:#FFFFFF;
+}
+
+#LARGE {
+	position: absolute;
+	height: 481px;
+	width: 568px;
+	left: 70px;
+	top: 42px;
+}
+#THUMB_L1 {
+	position: absolute;
+	height: 152px;
+	width: 180px;
+	left: 70px;
+	bottom: 26px;
+}
+#THUMB_L2 {
+	position: absolute;
+	height: 152px;
+	width: 179px;
+	left: 460px;
+	bottom: 26px;
+}
+
+#Color_L1 {
+	position: absolute;
+	height: 481px;
+	width: 90px;
+	top: 42px;
+	right: 166px;
+	z-index: 10;
+}
+#Color_L2 {
+	position: absolute;
+	height: 481px;
+	width: 90px;
+	top: 42px;
+	right: 166px;
+	z-index: 9;
+}
+.distant_CL1 {
+	margin-bottom: 0px;
+	padding-top: 107px;
+	padding-bottom: 107px;
+}
+#Text_L {
+	position: absolute;
+	height: 481px;
+	width: 146px;
+	top: 42px;
+	right: 20px;
+}
+#Description_01, #Description_02, #Description_03 {
+	position: absolute;
+	top: 35px;
+	right: 20px;
+	height: 80px;
+	width: 140px;
+	font-family: Banque-BAT;
+	font-size: 15px;
+	color: #CD6A7C;
+}
+#Description_02 {	
+	top: 235px;
+}
+#Description_03 {
+	top: 435px;
+}
+
+#BACK_L {
+	position: absolute;
+	height: 40px;
+	width: 50px;
+	right: 42px;
+	bottom: 50px;
+	font-family: OpeningNight-BAT;
+	font-size: 18px;
+}
+a:link {
+	color: #CD6A7C;
+	text-decoration: none;
+	}
+a:hover {
+	color: #7B6CB0;
+	text-decoration: none;
+	}
+a:visited {
+	color: #FF0000;
+	text-decoration: none;
+	}
+a:active {
+	color: #cd6a7c;
+	text-decoration: none;
+	}
+	
+/*------------CSS MEDIA CAREER----------------*/
+
+#Media {
+	position: absolute;
+	height: 400px;
+	width: 600px;
+	left: 42px;
+	top: 42px;
+}
+#Image_M { position:absolute;
+		   width: 150px;
+		   height: 400px;
+		   right:42px;
+		   top: 42px;
+}
+.M_distant {
+	padding-top: 8px;
+}
+#Text_Media {
+	position: absolute;
+	height: 42px;
+	width: 600px;
+	bottom: 24px;
+	left: 42px;
+	font-family: OpeningNight-BAT;
+	font-size: 18px;
+	color: #CD6A7C;
+}
+#BACK_M {
+	position: absolute;
+	height: 40px;
+	width: 50px;
+	right: 42px;
+	bottom: 26px;
+	font-family: OpeningNight-BAT;
+	
+}
+
+/*------------CSS ADVERTISING----------------*/
+
+#ImageA_L {
+	position: absolute;
+	height: 499px;
+	width: 939px;
+	left: 17px;
+	top: 24px;
+}
+#Thumbs_A {
+	position: absolute;
+	height: 130px;
+	width: 939px;
+	left: 17px;
+	bottom: 70px;
+	float:left;
+}
+#A1, #A2, #A3, #A4, #A5 {float:left;}
+.distant_A {
+	padding-left: 11px;
+
+}
+#BACK_A {
+	position: absolute;
+	height: 40px;
+	width: 50px;
+	right: 20px;
+	bottom: 55px;
+	font-family: OpeningNight-BAT;
+	font-size: 16px;
+}
+#Text_A {
+	position: absolute;
+	bottom: 5px;
+	left: 17px;
+	width: 800px;
+	height: 40px;
+	font-family: OpeningNight-BAT;
+	color: #CD6A7C;
+	font-size: 18px;
+}
+
+/*------------CSS SITEMAP----------------*/
+
+#Sitemap_frame {
+	position: absolute;
+	height: 446px;
+	width: 888px;
+	left: 40px;
+	top: 40px;
+}

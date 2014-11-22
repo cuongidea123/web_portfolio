@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Slide {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+#Slide ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+#Slide ul li {
+	display: block;
+	float: left;
+	width: 409px;
+	height: 260px;
+}
+#Prev, #Next {
+	position: absolute;
+	top: 40%;
+	z-index: 999;
+	padding: 18px 12px;
+	background: #0651A0;
+	color: #FFFFFF;
+	text-decoration: none;
+	cursor: pointer;
+	opacity: 0.6;
+}
+#Prev:hover, #Next:hover {
+	opacity: 1;
+}
+#Prev {
+	border-radius: 0 3px 3px 0;
+}
+#Next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}

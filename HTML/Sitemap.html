@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<link href="../Mystyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('../images/Menu_14.jpg','../images/MenuG_05.jpg','../images/MenuG_04.jpg','../images/MenuG_03.jpg','../images/MenuG_02.jpg','../images/MenuG_01.jpg','../images/ImageL_02_13.jpg','../images/ImageL_03_13.jpg','../images/ImageL_01.jpg','../images/ImageL_04.jpg','../images/ImageL_05.jpg','../images/ImageL_06.jpg')">
+
+
+
+<div id="FRAME">
+    <div id="HEAD">
+        <div id="BHead"></div>
+        <div id="Facebook"></div>
+        <div id="Google"></div>
+        <div id="Twitter"></div>
+        <div id="Search"></div>
+        <div id="Logo"></div> 
+    </div>
+    <div id="MENU">
+        <div id="CMenu">
+        	<a href="Home.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','../images/MenuG_01.jpg',1)"><img src="../images/MenuPi_01.jpg" alt="Home" width="206" height="89" class="over" id="Image1"></a>
+         	<a href="About Me.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','../images/MenuG_02.jpg',1)"><img src="../images/MenuPi_02.jpg" alt="About me" width="206" height="101" class="over" id="Image2"></a>
+        	<a href="Portfolio.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','../images/MenuG_03.jpg',1)"><img src="../images/MenuPi_03.jpg" alt="Portfolio" width="206" height="105" class="over" id="Image3"></a>
+        	<a href="Contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','../images/MenuG_04.jpg',1)"><img src="../images/MenuPi_04.jpg" alt="Contact" width="206" height="104" class="over" id="Image4"></a>
+        	<a href="Sitemap.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','../images/MenuG_05.jpg',1)"><img src="../images/MenuPu_05.jpg" alt="Sitemap" width="206" height="89" class="over" id="Image5"></a>
+        </div>
+    </div>
+    
+    <div id="CONTENT">
+        <div id="Sitemap_frame">
+   		<img src="../images/Sitemap/Site-Map-(Demo)_19.jpg" usemap="#Map">
+        <map name="Map">
+            <area shape="poly" coords="106,210,140,195,171,193,196,195,215,200,227,206,238,215,242,225,239,234,229,242,210,250,194,252,179,254,160,254,136,251,115,244,105,233,99,221" href="Home.html">
+            <area shape="poly" coords="341,194,367,197,386,207,398,216,399,228,390,239,377,244,366,250,350,253,336,253,321,253,297,250,277,245,265,238,258,228,255,217,270,207,283,203,311,196,292,200,305,195" href="About Me.html">
+            <area shape="poly" coords="450,197,475,194,503,195,524,196,545,207,559,222,548,239,533,246,511,253,495,254,471,252,451,249,434,243,422,234,416,219,424,206" href="Contact.html">
+            <area shape="poly" coords="595,199,632,192,659,194,688,202,708,212,710,230,692,243,680,250,659,254,620,252,597,247,586,240,574,227,571,214,578,204" href="Portfolio.html">
+            <area shape="poly" coords="741,204,776,193,823,196,853,207,871,222,860,241,836,247,807,256,779,251,751,244,728,235,730,218" href="Sitemap.html">
+            <area shape="poly" coords="33,370,68,362,93,365,117,370,138,384,140,403,125,408,103,417,84,420,64,421,42,415,29,410,18,401,12,383" href="Advertising.html">
+            <area shape="poly" coords="201,376,227,364,256,362,285,365,308,374,324,392,316,407,296,416,272,422,251,421,223,417,199,405,196,388" href="Media Career.html">
+            <area shape="poly" coords="464,363,506,365,534,376,546,399,531,411,502,419,473,420,440,413,422,400,417,381,435,369" href="Graphic.html">
+            <area shape="poly" coords="610,366,658,362,690,372,712,392,697,412,664,420,641,421,617,417,595,410,579,393,589,376" href="Logo.html">
+            <area shape="poly" coords="763,371,799,362,827,365,855,373,871,388,871,405,854,412,823,420,790,417,768,415,751,405,741,391,744,379" href="Website.html">
+        </map>
+        </div>
+        
+    </div>
+    
+     
+    <div id="FOOTER">
+        <div id="foot">Copyright © 2016 by BAT Inc. All rights reserved. View the best with 1280x1024 resolution.
+        </div>
+    </div>
+   
+</div>
+</body>
+</html>

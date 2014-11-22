@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<link href="../Mystyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('../images/Menu_14.jpg','../images/MenuG_05.jpg','../images/MenuG_04.jpg','../images/MenuG_03.jpg','../images/MenuG_02.jpg','../images/MenuG_01.jpg','../images/ImageL_02_13.jpg','../images/ImageL_03_13.jpg','../images/ImageL_01.jpg','../images/ImageL_04.jpg','../images/ImageL_05.jpg','../images/ImageL_06.jpg')">
+
+
+<div id="FRAME">
+    <div id="HEAD">
+        <div id="BHead"></div>
+        <div id="Facebook"></div>
+        <div id="Google"></div>
+        <div id="Twitter"></div>
+        <div id="Search"></div>
+        <div id="Logo"></div> 
+    </div>
+    <div id="MENU">
+        <div id="CMenu">
+        	<a href="Home.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','../images/MenuG_01.jpg',1)"><img src="../images/MenuPi_01.jpg" alt="Home" width="206" height="89" class="over" id="Image1"></a>
+         	<a href="About Me.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','../images/MenuG_02.jpg',1)"><img src="../images/MenuPi_02.jpg" alt="About me" width="206" height="101" class="over" id="Image2"></a>
+        	<a href="Portfolio.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','../images/MenuG_03.jpg',1)"><img src="../images/MenuPi_03.jpg" alt="Portfolio" width="206" height="105" class="over" id="Image3"></a>
+        	<a href="Contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','../images/MenuG_04.jpg',1)"><img src="../images/MenuPu_04.jpg" alt="Contact" width="206" height="104" class="over" id="Image4"></a>
+        	<a href="Sitemap.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','../images/MenuG_05.jpg',1)"><img src="../images/MenuPi_05.jpg" alt="Sitemap" width="206" height="89" class="over" id="Image5"></a>
+        </div>
+    </div>
+    
+    <div id="CONTENT">
+        <div id="Pic_C">
+        	<img src="../images/Contact/Contact_06.jpg">
+        </div>
+        <div id="Info_C">
+        	<img src="../images/Contact/Contact_10.jpg">
+        </div>
+        <div id="bgTable">
+            <div id="Table_Area">
+<form>
+<table width="100%" border="0" cellspacing="0" cellpadding="2">
+    <tr>
+        <td colspan="4" class="survey">SURVEY FORM</td>
+        </tr>
+    <tr>
+        <td width="28%" height="40">Name:</td>
+        <td height="40" colspan="3"><input name="textfield2" type="text" class="text-distant" id="textfield2"></td>
+        </tr>
+    <tr>
+        <td height="40">Address:</td>
+        <td height="40" colspan="3"><input name="textfield" type="text" class="text-distant" id="textfield"></td>
+        </tr>
+    <tr>
+        <td height="40">Email:</td>
+        <td height="40" colspan="3"><input name="email" type="email" class="text-distant" id="email"></td>
+        </tr>
+    <tr>
+        <td height="40">Gender:</td>
+        <td width="31%" height="40"><input name="radio" type="radio" id="radio" value="radio" checked>
+            <label for="radio">Male </label></td>
+        <td width="9%" height="40">&nbsp;</td>
+        <td width="32%" height="40"><input type="radio" name="radio" id="radio2" value="radio">
+            <label for="radio2">Female</label></td>
+    </tr>
+    <tr>
+        <td height="40">Favorite:</td>
+        <td height="40"><input name="checkbox" type="checkbox" id="checkbox">
+            Comic</td>
+        <td height="40">&nbsp;</td>
+        <td height="40"><input type="checkbox" name="checkbox2" id="checkbox2">
+            Books</td>
+    </tr>
+    <tr>
+        <td height="40">&nbsp;</td>
+        <td height="40"><input type="checkbox" name="checkbox3" id="checkbox3">
+            Game</td>
+        <td height="40">&nbsp;</td>
+        <td height="40"><input type="checkbox" name="checkbox4" id="checkbox4">
+            Sports</td>
+    </tr>
+    <tr>
+        <td height="100">Comment:</td>
+        <td height="100" colspan="3"><textarea name="textarea" cols="30" rows="4" class="borde-radius" id="textarea"></textarea></td>
+        </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><input name="submit" type="submit" class="submit-reset-style" id="submit" value="Submit"></td>
+        <td>&nbsp;</td>
+        <td>        <input name="reset" type="reset" class="submit-reset-style" id="reset" value="Reset"></td>
+    </tr>
+</table>
+</form>
+
+</div>
+
+        </div>
+        
+  
+    </div>
+    
+     
+    <div id="FOOTER">
+        <div id="foot">Copyright © 2016 by BAT Inc. All rights reserved. View the best with 1280x1024 resolution.
+        </div>
+    </div>
+   
+</div>
+</body>
+</html>
