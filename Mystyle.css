@@ -16,7 +16,7 @@ body {
 	margin: 0px;
 }
 #FRAME {
-	background-color: #FFFFFF;
+	background:url(images/frame.jpg);
 	background-repeat: no-repeat;
 	height: 1024px;
 	width: 1200px;
@@ -81,7 +81,7 @@ body {
 	top: 143px;
 }
 #BHead {
-	background-image: url(images/Head_01.jpg);
+	/*background-image: url(images/Head_01.jpg);*/
 	background-repeat: no-repeat;
 	position: absolute;
 	height: 209px;
@@ -109,8 +109,8 @@ body {
 #CONTENT {
 	position: absolute;
 	height: 758px;
-	width: 976px;
-	left:225px;
+	width: 887px;
+	right: 0px;
 	top:209px;
 }
 
@@ -118,14 +118,14 @@ body {
 	position: absolute;
 	height: 302px;
 	width: 479px;
-	left: 107px;
+	left: 62px;
 	top: 24px;
 }
 #ImageS1 {
 	position: absolute;
 	height: 93px;
 	width: 479px;
-	left: 107px;
+	left: 62px;
 	bottom: 24px;
 	z-index:10;
 }
@@ -133,7 +133,7 @@ body {
 	position: absolute;
 	height: 93px;
 	width: 479px;
-	left: 107px;
+	left: 62px;
 	bottom: 24px;
 	z-index:9;
 }
@@ -188,7 +188,7 @@ body {
 	position: absolute;
 	height: 43px;
 	width: 479px;
-	left: 107px;
+	left: 62px;
 	bottom: 145px;
 	z-index:10;
 }
@@ -197,7 +197,7 @@ body {
 	position: absolute;
 	height: 26px;
 	width: 26px;
-	left: 61px;
+	left: 26px;
 	bottom: 56px;
 }
 #Arrow2 {
@@ -205,7 +205,7 @@ body {
 	position: absolute;
 	height: 25px;
 	width: 26px;
-	left: 607px;
+	left: 538px;
 	bottom: 56px;
 }
 #BText1 {
@@ -236,6 +236,7 @@ body {
 }
 #CText1 {
 	position: absolute;
+
 	height: 265px;
 	width: 225px;
 	left: 16px;
@@ -258,7 +259,7 @@ body {
 
 
 #FOOTER {
-	position: relative;
+	position: absolute;
 	height: 57px;
 	width: 1200px;
 	text-align: center;
@@ -266,9 +267,10 @@ body {
 	font-family: OpeningNight-BAT;
 	font-size: 16px;
 	color:#FFFFFF;
+	bottom: 0px;
 }
 #foot {
-	background-image: url(images/BGfoot.jpg);
+	/*background-image: url(images/BGfoot.jpg);*/
 	background-repeat: repeat-x;
 	position: absolute;
 	height: 55px;
