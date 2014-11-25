@@ -31,7 +31,7 @@ body {
     padding: 0;
 }
 #nav {
-    background: url(../images/menu_08.jpg) no-repeat scroll 0 0 transparent;
+    background: url(images/menu_08.jpg) no-repeat scroll 0 0 transparent;
     clear: both;
     font-size: 18px;
     height: 68px;
@@ -51,11 +51,11 @@ ul#nav li {
 	z-index:20;
 	line-height:32px;
 	}
-ul#nav li:nth-child(1) a {padding: 19px 88px;}
-ul#nav li:nth-child(2) a {padding: 19px 69px;}
-ul#nav li:nth-child(3) a {padding: 19px 70px;}
-ul#nav li:nth-child(4) a {padding: 19px 69px;}
-ul#nav li:nth-child(5) a {padding: 19px 64px;}
+ul#nav li:nth-child(1) a {padding: 15px 88px;}
+ul#nav li:nth-child(2) a {padding: 15px 69px;}
+ul#nav li:nth-child(3) a {padding: 15px 70px;}
+ul#nav li:nth-child(4) a {padding: 15px 69px;}
+ul#nav li:nth-child(5) a {padding: 15px 64px;}
 
 #nav li a {
     color: #FFFFFF;
@@ -75,10 +75,10 @@ ul#nav li:nth-child(5) a {padding: 19px 64px;}
 	color: #ffea00;
 }
 #home, #sitemap, #gallery, #new {
-    background: url(../images/menu_highlight.png) no-repeat scroll 0 0 transparent;
+    background: url(images/menu_highlight.png) no-repeat scroll 0 0 transparent;
     height: 67px;
     position: absolute;
-    bottom: 5px;
+    bottom: 13px;
     width: 181px;
 
     -moz-transition: all 300ms ease;
@@ -140,7 +140,7 @@ ul#nav li:nth-child(5) a {padding: 19px 64px;}
 /*------------CSS HEAD----------------*/
 
 #HEAD {
-	height: 209px;
+	height: 319px;
 	width: 1200px;
 	position: relative;
 	padding-left: 0px;
@@ -203,7 +203,7 @@ ul#nav li:nth-child(5) a {padding: 19px 64px;}
 	position:relative;
 	width:1200px;
 	height:68px;
-	background:#966;
+	/* background:#966; */
 	}
 #CMenu {
 	position: absolute;
@@ -219,11 +219,11 @@ ul#nav li:nth-child(5) a {padding: 19px 64px;}
 /*------------CSS CONTENT----------------*/
 
 #CONTENT {
-	position: absolute;
-	height: 758px;
-	width: 887px;
+	position: relative;
+	height: 607px;
+	width: 1200px;
 	right: 0px;
-	top:209px;
+	/* top:209px; */
 }
 
 #ImageL {
@@ -322,71 +322,70 @@ ul#nav li:nth-child(5) a {padding: 19px 64px;}
 }
 #BText1 {
 	font-family:OpeningNight-BAT;
-	background-image: url(images/BText_65.jpg);
+	background-image: url(images/BText_65.png);
 	background-repeat: no-repeat;
 	position: absolute;
 	height: 304px;
-	width: 256px;
+	width: 389px;
 	top: 24px;
-	right: 20px;
+	right: 30px;
 	color: #FFFFFF;
-	font-size: 16px;
+	font-size: 19px;
 	text-align: justify;
 }
 #BText2 {
 	font-family:OpeningNight-BAT;
-	background-image: url(images/BText_87.jpg);
+	background-image: url(images/BText_87.png);
 	background-repeat: no-repeat;
 	position: absolute;
 	height: 158px;
-	width: 256px;
-	right: 20px;
+	width: 389px;
+	right: 30px;
 	bottom: 24px;
-	color: #FFFFFF;
-	font-size: 16px;
+	color: #fea051;
+	font-size: 19px;
 	text-align: justify;
 }
 #CText1 {
 	position: absolute;
-
+	color:#fea051;
 	height: 265px;
-	width: 225px;
-	left: 16px;
-	top: 16px;
-	right: 16px;
+	width: 332px;
+	top: 7px;
+	left: 26px;
 	bottom: 16px;
 }
 #CText2 {
 	position: absolute;
 	height: 124px;
-	width: 225px;
-	left: 16px;
+	width: 332px;
+	left: 26px;
 	top: 16px;
-	right: 16px;
 	bottom: 16px;
-	font-size: 16px;
+	font-size: 19px;
 }
 
 /*------------CSS FOOTER----------------*/
 
 
 #FOOTER {
-	position: absolute;
-	height: 57px;
+	position: relative;
+	/* height: 57px; */
 	width: 1200px;
 	text-align: center;
-	line-height: 55px;
 	font-family: OpeningNight-BAT;
 	font-size: 16px;
 	color:#FFFFFF;
-	bottom: 0px;
 }
 #foot {
 	/*background-image: url(images/BGfoot.jpg);*/
 	background-repeat: repeat-x;
-	position: absolute;
-	height: 55px;
+	 position: absolute; 
+
+
+	/* height: 55px; */
 	width: 1200px;
+	top:10px;
 }
 
 /*------------CSS ABOUT ME----------------*/
