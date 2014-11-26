@@ -23,7 +23,7 @@ body {
 	margin: 0px auto;
 	position: relative;
 }
-
+#logo_main{position:absolute; background:url(images/logo_main.png) no-repeat; width:262px; height:633px; top: 211px; left: 0px;z-index: 99;}
 /*start Menu*/
 #nav, #nav ul {
     list-style: none outside none;
@@ -45,14 +45,14 @@ body {
     position: relative;
 }*/
 ul#nav li {
-	left:212px;
+	left: 249px;
 	position:relative;
 	text-align: center;
 	z-index:20;
 	line-height:32px;
 	}
-ul#nav li:nth-child(1) a {padding: 15px 88px;}
-ul#nav li:nth-child(2) a {padding: 15px 69px;}
+ul#nav li:nth-child(1) a {padding: 15px 82px;}
+ul#nav li:nth-child(2) a {padding: 15px 39px;}
 ul#nav li:nth-child(3) a {padding: 15px 70px;}
 ul#nav li:nth-child(4) a {padding: 15px 69px;}
 ul#nav li:nth-child(5) a {padding: 15px 64px;}
@@ -95,30 +95,30 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
     transition-duration: 3000s;
 }
 
-#home{left:228px;}
-#nav li:nth-of-type(1):hover ~ #home {left: 228px;}
-#nav li:nth-of-type(2):hover ~ #home {left: 429px;}
+#home{left: 258px;}
+#nav li:nth-of-type(1):hover ~ #home {left: 258px;}
+#nav li:nth-of-type(2):hover ~ #home {left: 440px;}
 #nav li:nth-of-type(3):hover ~ #home {left: 613px;}
 #nav li:nth-of-type(4):hover ~ #home {left: 810px;}
 #nav li:nth-of-type(5):hover ~ #home {left: 1003px;}
 
 #gallery{left:613px;}
-#nav li:nth-of-type(1):hover ~ #gallery {left: 228px;}
-#nav li:nth-of-type(2):hover ~ #gallery {left: 429px;}
+#nav li:nth-of-type(1):hover ~ #gallery {left: 258px;}
+#nav li:nth-of-type(2):hover ~ #gallery {left: 440px;}
 #nav li:nth-of-type(3):hover ~ #gallery {left: 613px;}
 #nav li:nth-of-type(4):hover ~ #gallery {left: 810px;}
 #nav li:nth-of-type(5):hover ~ #gallery {left: 1003px;}
 
 #sitemap {left: 0px; opacity:0;}
-#nav li:nth-of-type(1):hover ~ #sitemap {left: 228px;opacity:1;}
-#nav li:nth-of-type(2):hover ~ #sitemap {left: 429px;opacity:1;}
+#nav li:nth-of-type(1):hover ~ #sitemap {left: 258px;opacity:1;}
+#nav li:nth-of-type(2):hover ~ #sitemap {left: 440px;opacity:1;}
 #nav li:nth-of-type(3):hover ~ #sitemap {left: 613px;opacity:1;}
 #nav li:nth-of-type(4):hover ~ #sitemap {left: 810px;opacity:1;}
 #nav li:nth-of-type(5):hover ~ #sitemap {left: 1003px;opacity:1;}
 
-#new {left: 429px;}
-#nav li:nth-of-type(1):hover ~ #new {left: 228px;opacity:1;}
-#nav li:nth-of-type(2):hover ~ #new {left: 429px;opacity:1;}
+#new {left: 440px;}
+#nav li:nth-of-type(1):hover ~ #new {left: 258px;opacity:1;}
+#nav li:nth-of-type(2):hover ~ #new {left: 440px;opacity:1;}
 #nav li:nth-of-type(3):hover ~ #new {left: 613px;opacity:1;}
 #nav li:nth-of-type(4):hover ~ #new {left: 810px;opacity:1;}
 #nav li:nth-of-type(5):hover ~ #new {left: 1003px;opacity:1;}
@@ -228,80 +228,80 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
 
 #ImageL {
 	position: absolute;
-	height: 302px;
+	height: 252px;
 	width: 479px;
-	left: 62px;
-	top: 24px;
+	left: 561px;
+	top: 44px;
 }
 #ImageS1 {
 	position: absolute;
 	height: 93px;
-	width: 479px;
-	left: 62px;
-	bottom: 24px;
+	width: 399px;
+	left: 584px;
+	bottom: 198px;
 	z-index:10;
 }
 #ImageS2 {
 	position: absolute;
 	height: 93px;
-	width: 479px;
-	left: 62px;
-	bottom: 24px;
+	width: 399px;
+	left: 584px;
+	bottom: 198px;
 	z-index:9;
 }
 .distant {
-	padding-left: 11px;
+	padding-left: 6px;
 }
 .distant_S2 {
-	margin-left: 10px;
+	margin-left: 6px;
 }
 
 #Tittle1 {
 	position: absolute;
 	height: 43px;
 	width: 405px;
-	left: 137px;
-	bottom: 145px;
+	left: 237px;
+	bottom: 174px;
 	z-index:11;
 }
 #Tittle2 {
 	position: absolute;
 	height: 43px;
 	width: 405px;
-	left: 137px;
-	bottom: 145px;
+	left: 237px;
+	bottom: 174px;
 	z-index:9;
 }
 #Tittle3 {
 	position: absolute;
 	height: 43px;
 	width: 405px;
-	left: 137px;
-	bottom: 145px;
+	left: 237px;
+	bottom: 174px;
 	z-index:9;
 }
 #Tittle4 {
 	position: absolute;
 	height: 43px;
 	width: 479px;
-	left: 107px;
-	bottom: 145px;
+	left: 201px;
+	bottom: 174px;
 	z-index:10;
 }
 #Tittle5 {
 	position: absolute;
 	height: 43px;
 	width: 479px;
-	left: 107px;
-	bottom: 145px;
+	left: 201px;
+	bottom: 174px;
 	z-index:10;
 }
 #Tittle6 {
 	position: absolute;
 	height: 43px;
 	width: 479px;
-	left: 62px;
-	bottom: 145px;
+	left: 201px;
+	bottom: 174px;
 	z-index:10;
 }
 #Arrow1 {
@@ -309,16 +309,16 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
 	position: absolute;
 	height: 26px;
 	width: 26px;
-	left: 26px;
-	bottom: 56px;
+	left: 549px;
+	bottom: 235px;
 }
 #Arrow2 {
 	background-repeat: no-repeat;
 	position: absolute;
 	height: 25px;
 	width: 26px;
-	left: 538px;
-	bottom: 56px;
+	left: 985px;
+	bottom: 235px;
 }
 #BText1 {
 	font-family:OpeningNight-BAT;
@@ -370,22 +370,16 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
 
 #FOOTER {
 	position: relative;
-	/* height: 57px; */
 	width: 1200px;
 	text-align: center;
-	font-family: OpeningNight-BAT;
-	font-size: 16px;
+	font-size: 12px;
 	color:#FFFFFF;
 }
 #foot {
-	/*background-image: url(images/BGfoot.jpg);*/
 	background-repeat: repeat-x;
-	 position: absolute; 
-
-
-	/* height: 55px; */
+	position: absolute; 
 	width: 1200px;
-	top:10px;
+	top: 10px;
 }
 
 /*------------CSS ABOUT ME----------------*/
@@ -656,6 +650,7 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
 	position: absolute;
 	height: 57px;
 	width: 1200px;
+
 	top: 945px;
 	text-align: center;
 	line-height: 55px;
