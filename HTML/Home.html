@@ -34,6 +34,86 @@ function MM_showHideLayers() { //v9.0
     obj.visibility=v; }
 }
 </script>
+
+<style type="text/css">
+.opa { 
+	-webkit-animation: opa 0.5s ease-in-out 1.3s forwards;
+	animation: opa 0.5s ease-in-out 1.3s forwards;
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+}
+.opa2 { 
+	-webkit-animation: opa 0.5s ease-in-out 1s forwards;
+	animation: opa 0.5s ease-in-out 1s forwards;
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+}
+.opa3 { 
+	-webkit-animation: opa 0.5s ease-in-out 1.5s forwards;
+	animation: opa 0.5s ease-in-out 1.5s forwards;
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+}
+.opa4 { 
+	-webkit-animation: opa 0.5s ease-in-out 1.8s forwards;
+	animation: opa 0.5s ease-in-out 1.8s forwards;
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+}
+@-webkit-keyframes opa { 
+    0% { opacity: 0;} 
+    100% { opacity: 1;}} 
+	
+.animated1 { 
+	-webkit-animation: bounceInLeft 1s ease-in-out 0.5s forwards;
+	animation: bounceInLeft 1s ease-in-out 0.5s forwards;
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+}
+
+.animated2 { 
+	-webkit-animation: bounceInRight 1s ease-in-out 0.5s forwards;
+	animation: bounceInRight 1s ease-in-out 0.5s forwards;
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+} 
+.animated3 { 
+	-webkit-animation: bounceInLeft 1s ease-in-out 0.8s forwards;
+	animation: bounceInLeft 1s ease-in-out 0.8s forwards;
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+}
+.animated4 { 
+	-webkit-animation: bounceInRight 1s ease-in-out 0.8s forwards;
+	animation: bounceInRight 1s ease-in-out 0.8s forwards;
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+} 
+@-webkit-keyframes bounceInLeft { 
+    0% {  opacity: 0;  -webkit-transform: translateX(-2000px); } 
+    60% { opacity: 1; -webkit-transform: translateX(30px); } 
+    80% {  -webkit-transform: translateX(-10px);  } 
+    100% { -webkit-transform: translateX(0); }} 
+
+@keyframes bounceInLeft { 
+    0% { opacity: 0; transform: translateX(-2000px); } 
+    60% {  opacity: 1;  transform: translateX(30px); } 
+    80% { transform: translateX(-10px); } 
+    100% { transform: translateX(0); }} 
+
+@-webkit-keyframes bounceInRight { 
+    0% { opacity: 0; -webkit-transform: translateX(2000px); } 
+    60% { opacity: 1; -webkit-transform: translateX(-30px); } 
+    80% { -webkit-transform: translateX(10px); } 
+    100% { -webkit-transform: translateX(0); }} 
+
+@keyframes bounceInRight { 
+    0% { opacity: 0; transform: translateX(2000px); } 
+    60% { opacity: 1; transform: translateX(-30px); } 
+    80% { transform: translateX(10px); } 
+    100% { transform: translateX(0); }} 
+
+</style>
 </head>
 
 <body>
@@ -63,25 +143,34 @@ function MM_showHideLayers() { //v9.0
     </div>
     
     <div id="CONTENT">
-    	<img style="position: absolute;top: 32px;left: 246px;" src="../images/main_home.png" width="935" height="564" alt=""/>
-        <div id="ImageL">
+    	
+        <div class="salon animated4"></div>
+        <div class="ngan1 animated1"></div>
+        <div class="ngan2 animated2"></div>
+        <div class="book1 opa2"></div>
+        <div class="ke animated3"></div>
+        <div class="flow opa"></div>
+        <div class="lamp opa4"></div>
+        <div class="board opa2"></div>
+        <!--<img style="position: absolute;top: 32px;left: 246px;" src="../images/main_home.png" width="935" height="564" alt=""/>-->
+        <div id="ImageL" class="opa">
        	<img src="../images/ImageL_01.jpg" id="FULL"></div>
             
-        <div id="ImageS1">
+        <div id="ImageS1" class="opa3">
         	<img src="../images/ImageS_01.jpg" id="IS1" onMouseOver="MM_swapImage('FULL','','../images/ImageL_01.jpg',1);MM_showHideLayers('T1','','show','T2','','hide','T3','','hide','T4','','hide','T5','','hide','T6','','hide')">
-            <a href="Media Career.html"><img src="../images/ImageS_02.jpg" class="distant" id="IS2" onMouseOver="MM_swapImage('FULL','','../images/ImageL_02.jpg',1);MM_showHideLayers('T1','','hide','T2','','hide','T3','','show','T4','','hide','T5','','hide','T6','','hide')"></a>
+            <a href="#"><img src="../images/ImageS_02.jpg" class="distant" id="IS2" onMouseOver="MM_swapImage('FULL','','../images/ImageL_02.jpg',1);MM_showHideLayers('T1','','hide','T2','','hide','T3','','show','T4','','hide','T5','','hide','T6','','hide')"></a>
             <img src="../images/ImageS_03.jpg" class="distant" id="IS3" onMouseOver="MM_swapImage('FULL','','../images/ImageL_03.jpg',1);MM_showHideLayers('T1','','hide','T2','','show','T3','','hide','T4','','hide','T5','','hide','T6','','hide')">
         </div>
         
-        <div id="ImageS2"> <a href="Advertising.html"><img src="../images/ImageS_04.jpg" id="IS4" onMouseOver="MM_swapImage('FULL','','../images/ImageL_04.jpg',1);MM_showHideLayers('T1','','hide','T2','','hide','T3','','hide','T4','','show','T5','','hide','T6','','hide')"></a>
+        <div id="ImageS2" class="opa3"> <a href="#"><img src="../images/ImageS_04.jpg" id="IS4" onMouseOver="MM_swapImage('FULL','','../images/ImageL_04.jpg',1);MM_showHideLayers('T1','','hide','T2','','hide','T3','','hide','T4','','show','T5','','hide','T6','','hide')"></a>
             <img src="../images/ImageS_05.jpg" class="distant_S2" id="IS5" onMouseOver="MM_swapImage('FULL','','../images/ImageL_05.jpg',1);MM_showHideLayers('T1','','hide','T2','','hide','T3','','hide','T4','','hide','T5','','show','T6','','hide')">
             <img src="../images/ImageS_06.jpg" class="distant_S2" id="IS6" onMouseOver="MM_swapImage('FULL','','../images/ImageL_06.jpg',1);MM_showHideLayers('T1','','hide','T2','','hide','T3','','hide','T4','','hide','T5','','hide','T6','','show')"> 
         </div>
         
-        <div id="Arrow2">
+        <div id="Arrow2" class="opa3">
         	<img src="../images/Arrow_59.jpg" onClick="MM_showHideLayers('ImageS1','','hide','ImageS2','','show')">
         </div>
-        <div id="Arrow1">
+        <div id="Arrow1" class="opa3">
         	<img src="../images/Arrow_51.jpg" onClick="MM_showHideLayers('ImageS1','','show','ImageS2','','hide')">
         </div>
         

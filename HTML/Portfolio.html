@@ -12,6 +12,7 @@
 	height: 157px;
 	-webkit-transition: -webkit-transform 1s;
 	-ms-transition: -ms-transform 1s;
+	opacity: 0;
 }
 #W:hover { 
 	-webkit-transform: scale(1.5);
@@ -25,6 +26,7 @@
 	height: 157px;
 	-webkit-transition: -webkit-transform 1s;
 	-ms-transition: -ms-transform 1s;
+	opacity: 0;
 }
 #G:hover { 
 	-webkit-transform: scale(1.5);
@@ -38,11 +40,23 @@
 	height: 157px;
 	-webkit-transition: -webkit-transform 1s;
 	-ms-transition: -ms-transform 1s;
+	opacity: 0;
 }
 #L:hover { 
 	-webkit-transform: scale(1.5);
 	-ms-transform: scale(1.5);
 }
+/*fade bounce*/
+@-webkit-keyframes bounceIn { 
+    0% { opacity: 0; -webkit-transform: scale(.3); } 
+    50% { opacity: 1; -webkit-transform: scale(1.05); } 
+    70% { -webkit-transform: scale(.9); } 
+    100% { -webkit-transform: scale(1);opacity: 1; } 
+	} 
+.bounceIn1 { -webkit-animation: bounceIn 1s ease-in-out 0.5s forwards; }
+.bounceIn2 { -webkit-animation: bounceIn 1s ease-in-out 0.7s forwards; }
+.bounceIn3 { -webkit-animation: bounceIn 1s ease-in-out 0.9s forwards; }
+/*end bouncein*/
 </style>
 <link href="../Mystyle.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">
@@ -105,9 +119,9 @@ function MM_showHideLayers() { //v9.0
         	<div id="Tittle_P">Please choose your sections</div>
         </div>
         <div id="Body_P">
-        	<div id="G"><a href="Graphic.html"><img src="../images/Porfolio/New Image/img1.png"></a></div>
-            <div id="L"><a href="Logo.html"><img src="../images/Porfolio/New Image/img2.png"></a></div>
-            <div id="W"><a href="Website.html"><img src="../images/Porfolio/New Image/img3.png"></a></div>
+        	<div id="G" class="bounceIn1"><a href="Graphic.html"><img src="../images/Porfolio/New Image/img1.png"></a></div>
+            <div id="L" class="bounceIn2"><a href="Logo.html"><img src="../images/Porfolio/New Image/img2.png"></a></div>
+            <div id="W" class="bounceIn3"><a href="Website.html"><img src="../images/Porfolio/New Image/img3.png"></a></div>
             
         </div>
         
