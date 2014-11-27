@@ -28,7 +28,7 @@ body {
 }
 #FRAME_about{background:url(images/About%20Me/frame_about.jpg) no-repeat;}
 #logo_main{position:absolute; background:url(images/logo_main.png) no-repeat; width:262px; height:633px; top: 211px; left: 0px;z-index: 99;}
-.dmc{position:absolute; background:url(images/dmc.png) no-repeat; width:479px; height:42px; top: 26px; left: 393px;z-index: 99;}
+#dmc{position:absolute; background:url(images/dmc.png) no-repeat; width:479px; height:42px; top: 26px; left: 393px;z-index: 99;}
 /*start Menu*/
 #nav, #nav ul {
     list-style: none outside none;
@@ -648,14 +648,14 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
 
 /*------------CSS LOGO----------------*/
 
-#LFRAME {
-	background-color: #FFFFFF;
+/*#LFRAME {
+	
 	background-repeat: no-repeat;
 	height:1000px;
 	width: 1200px;
 	margin: 0px auto;
 	position: relative;
-}
+}*/
 #LCONTENT {
 	position: absolute;
 	height: 735px;
@@ -680,29 +680,29 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
 	position: absolute;
 	height: 481px;
 	width: 568px;
-	left: 70px;
-	top: 42px;
+	left: 480px;
+	top: 136px;
 }
 #THUMB_L1 {
 	position: absolute;
 	height: 152px;
 	width: 180px;
-	left: 70px;
-	bottom: 26px;
+	left: 274px;
+	bottom: 318px;
 }
 #THUMB_L2 {
 	position: absolute;
 	height: 152px;
 	width: 179px;
-	left: 460px;
-	bottom: 26px;
+	left: 274px;
+	bottom: 84px;
 }
 
 #Color_L1 {
 	position: absolute;
 	height: 481px;
 	width: 90px;
-	top: 42px;
+	top: 137px;
 	right: 166px;
 	z-index: 10;
 }
@@ -710,14 +710,14 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
 	position: absolute;
 	height: 481px;
 	width: 90px;
-	top: 42px;
+	top: 137px;
 	right: 166px;
 	z-index: 9;
 }
 .distant_CL1 {
 	margin-bottom: 0px;
-	padding-top: 107px;
-	padding-bottom: 107px;
+	padding-top: 45px;
+	padding-bottom: 45px;
 }
 #Text_L {
 	position: absolute;
@@ -728,29 +728,28 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
 }
 #Description_01, #Description_02, #Description_03 {
 	position: absolute;
-	top: 35px;
+	top: 160px;
 	right: 20px;
 	height: 80px;
 	width: 140px;
-	font-family: Banque-BAT;
 	font-size: 15px;
-	color: #CD6A7C;
+	color: #fea051;
 }
 #Description_02 {	
-	top: 235px;
+	top: 297px;
 }
 #Description_03 {
-	top: 435px;
+	top: 424px;
 }
 
 #BACK_L {
-	position: absolute;
-	height: 40px;
-	width: 50px;
-	right: 42px;
-	bottom: 50px;
-	font-family: OpeningNight-BAT;
 	font-size: 18px;
+	position: absolute;
+	height: 31px;
+	width: 80px;
+	right: 72px;
+	bottom: 42px;
+	background:url(images/back.png) no-repeat;
 }
 a:link {
 	color: #CD6A7C;

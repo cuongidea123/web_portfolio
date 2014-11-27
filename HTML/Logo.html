@@ -39,31 +39,31 @@ function MM_showHideLayers() { //v9.0
 <body onLoad="MM_preloadImages('../images/Menu_14.jpg','../images/MenuG_05.jpg','../images/MenuG_04.jpg','../images/MenuG_03.jpg','../images/MenuG_02.jpg','../images/MenuG_01.jpg','../images/ImageL_02_13.jpg','../images/ImageL_03_13.jpg','../images/ImageL_01.jpg','../images/ImageL_04.jpg','../images/ImageL_05.jpg','../images/ImageL_06.jpg','../images/Logo/FPT_L_01.jpg','../images/Logo/DFY_L_01.jpg','../images/Logo/FPT_L_02.jpg','../images/Logo/FPT_L_04.jpg','../images/Logo/FPT_L_03.jpg','../images/Logo/DFY_L_02.jpg','../images/Logo/DFY_L_03.jpg','../images/Logo/DFY_L_04.jpg')">
 
 
-<div id="LFRAME">
+<div id="FRAME">
+	<div class="dmc"></div>
+	<div id="logo_main"></div>
     <div id="HEAD">
         <div id="BHead"></div>
-        <div id="Facebook"></div>
-        <div id="Google"></div>
-        <div id="Twitter"></div>
-        <div id="Search"></div>
-        <div id="Logo"></div> 
+       
     </div>
     <div id="MENU">
-        <div id="CMenu">
-        	<a href="Home.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','../images/MenuG_01.jpg',1)"><img src="../images/MenuPi_01.jpg" alt="Home" width="206" height="89" class="over" id="Image1"></a>
-         	<a href="About Me.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','../images/MenuG_02.jpg',1)"><img src="../images/MenuPi_02.jpg" alt="About me" width="206" height="101" class="over" id="Image2"></a>
-        	<a href="Portfolio.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','../images/MenuG_03.jpg',1)"><img src="../images/MenuPu_03.jpg" alt="Portfolio" width="206" height="105" class="over" id="Image3"></a>
-        	<a href="Contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','../images/MenuG_04.jpg',1)"><img src="../images/MenuPi_04.jpg" alt="Contact" width="206" height="104" class="over" id="Image4"></a>
-        	<a href="Sitemap.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','../images/MenuG_05.jpg',1)"><img src="../images/MenuPi_05.jpg" alt="Sitemap" width="206" height="89" class="over" id="Image5"></a>
-        </div>
+        <ul id="nav">
+           <li><a href="home.html">Home</a></li>
+            <li><a href="About Me.html">About me</a></li>
+            <li class="selected"><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="#">My team</a></li>
+            <div id="portfolio"></div>
+   		</ul>
     </div>
     
-    <div id="LCONTENT">
+    <div id="CONTENT">
+    <img src="../images/Porfolio/New Image/cont_contact.jpg" width="1200" height="619" alt=""/>
     	<div id="LARGE"><img src="../images/Logo/FPT_L_01.jpg" id="FULL_1">
         </div>
         <div id="THUMB_L1"><img src="../images/Logo/Logo_S1.jpg" onClick="MM_swapImage('FULL_1','','../images/Logo/FPT_L_01.jpg',1);MM_showHideLayers('Color_L1','','show','Color_L2','','hide')">
         </div>
-    	<div id="THUMB_L2"><img src="../images/Logo/Logo_S2.jpg" onClick="MM_swapImage('FULL_1','','../images/Logo/DFY_L_01.jpg',1);MM_showHideLayers('Color_L1','','hide','Color_L2','','show')">
+    	<div id="THUMB_L2"><img src="../images/Logo/Logo_S2.png" onClick="MM_swapImage('FULL_1','','../images/Logo/DFY_L_01.png',1);MM_showHideLayers('Color_L1','','hide','Color_L2','','show')">
         </div>
     	<div id="Color_L1">
         	<img src="../images/Logo/Color/Color1_01.jpg" onMouseOver="MM_swapImage('FULL_1','','../images/Logo/FPT_L_02.jpg',1)">
@@ -71,22 +71,21 @@ function MM_showHideLayers() { //v9.0
             <img src="../images/Logo/Color/Color1_03.jpg" onMouseOver="MM_swapImage('FULL_1','','../images/Logo/FPT_L_03.jpg',1)">
         </div>
         <div id="Color_L2">
-        	<img src="../images/Logo/Color/Color2_01.jpg" onMouseOver="MM_swapImage('FULL_1','','../images/Logo/DFY_L_02.jpg',1)">
-            <img src="../images/Logo/Color/Color2_02.jpg" class="distant_CL1" onMouseOver="MM_swapImage('FULL_1','','../images/Logo/DFY_L_03.jpg',1)">
-            <img src="../images/Logo/Color/Color2_03.jpg" onMouseOver="MM_swapImage('FULL_1','','../images/Logo/DFY_L_04.jpg',1)">
+        	<img src="../images/Logo/Color/Color2_01.jpg" onMouseOver="MM_swapImage('FULL_1','','../images/Logo/DFY_L_02.png',1)">
+            <img src="../images/Logo/Color/Color2_02.jpg" class="distant_CL1" onMouseOver="MM_swapImage('FULL_1','','../images/Logo/DFY_L_03.png',1)">
+            <img src="../images/Logo/Color/Color2_03.jpg" onMouseOver="MM_swapImage('FULL_1','','../images/Logo/DFY_L_04.png',1)">
         </div>
-        <div id="BACK_L"><a href="Portfolio.html">BACK</a></div>
+        <a href="Portfolio.html"><div id="BACK_L"></div></a>
         <div id="Description_01">logo on <br> light color
         </div>
         <div id="Description_02">logo on <br> dark color</div>
-        <div id="Description_03">logo on <br> complementary <br> color</div>
+        <div id="Description_03">logo on <br> black & white <br> color</div>
         
     </div>
     
      
-    <div id="LFOOTER">
-        <div id="foot">Copyright © 2016 by BAT Inc. All rights reserved. View the best with 1280x1024 resolution.
-        </div>
+    <div id="FOOTER">
+        <div id="foot" style="top:615px;">Copyright<sup>©</sup> 2014 by FCD Inc. All rights reserved.</div>
     </div>
    
 </div>
