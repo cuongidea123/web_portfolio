@@ -43,6 +43,49 @@ function MM_showHideLayers() { //v9.0
     obj.visibility=v; }
 }
 </script>
+<style type="text/css">
+#FrameG .scrollV
+{
+    right: 0px;
+}
+
+#FrameG .scrollV > div {
+	background: #520975 !important;
+	opacity : 0.8;
+	height: 169px;
+}
+
+.scrollV > div {
+	position:absolute;
+	z-index:100;
+	width:100%;
+	
+	background:-webkit-gradient(linear, 0 0, 100% 0, from(#520975), to(#520975));
+	opacity:0.2;
+	-webkit-background-clip:padding-box;
+	-moz-background-clip:padding-box;
+	-o-background-clip:padding-box;
+	background-clip:padding-box;
+	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+	
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-o-border-radius:4px;
+	border-radius:4px;
+}
+.scrollV {
+	position:absolute;
+	z-index:100;
+	width:8px;
+	bottom: 10px;
+	top:0;
+	right:10px;
+}
+</style>
 </head>
 
 <body onLoad="MM_preloadImages('../images/Menu_14.jpg','../images/MenuG_05.jpg','../images/MenuG_04.jpg','../images/MenuG_03.jpg','../images/MenuG_02.jpg','../images/MenuG_01.jpg','../images/ImageL_02_13.jpg','../images/ImageL_03_13.jpg','../images/ImageL_01.jpg','../images/ImageL_04.jpg','../images/ImageL_05.jpg','../images/ImageL_06.jpg')">
@@ -57,7 +100,7 @@ function MM_showHideLayers() { //v9.0
     </div>
     <div id="MENU">
         <ul id="nav">
-            <li><a href="home.html">Home</a></li>
+            <li><a href="../Home.html">Home</a></li>
             <li><a href="About Me.html">About me</a></li>
             <li class="selected"><a href="Portfolio.html">Portfolio</a></li>
             <li><a href="Contact.html">Contact</a></li>
@@ -67,7 +110,9 @@ function MM_showHideLayers() { //v9.0
     </div>
     
     <div id="GCONTENT">
+    	
         <div id="FrameG">
+       
         	<a href="../images/Graphic/ImageLG_01.jpg" rel="lightbox_bat"><img src="../images/Graphic/ImageSG_01.jpg"></a>
             <a href="../images/Graphic/ImageLG_02.jpg" rel="lightbox_bat"><img src="../images/Graphic/ImageSG_02.jpg" class="distant_G1"></a>
             <a href="../images/Graphic/ImageLG_03.jpg" rel="lightbox_bat"><img src="../images/Graphic/ImageSG_03.jpg" class="distant_G1"></a>
@@ -80,6 +125,7 @@ function MM_showHideLayers() { //v9.0
             <a href="../images/Graphic/ImageLG_10.jpg" rel="lightbox_bat"><img src="../images/Graphic/ImageSG_10.jpg" class="distant_G2"></a>
             <a href="../images/Graphic/ImageLG_11.jpg" rel="lightbox_bat"><img src="../images/Graphic/ImageSG_11.jpg" class="distant_G2"></a>
             <a href="../images/Graphic/ImageLG_12.jpg" rel="lightbox_bat"><img src="../images/Graphic/ImageSG_12.jpg" class="distant_G2"></a>
+
         </div>
         
     <div id="Text_G">Please click on your photos you like and enjoy it!</div>
