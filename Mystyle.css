@@ -7,6 +7,7 @@
 @font-face{	font-family: Banque-BAT;
 			src:url(Fonts/UTM%20BanqueR.ttf), url(Fonts/UTM%20BanqueR.eot);
 }
+*{margin:0; padding:0;}
 body {
 	background-image: url(Stock/url2.jpeg);
 	background-attachment: fixed;
@@ -15,6 +16,7 @@ body {
 	background-position: center top;
 	margin: 0px;
 	font-family:Arial;
+	/*-webkit-transform:scale(0.9);*/
 }
 #FRAME, #FRAME_about {
 	background:url(images/frame.jpg);
@@ -151,7 +153,7 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
 .salon{position:absolute; background:url(images/home/salon.png) no-repeat; width:451px; height:161px;top: 439px;left: 536px;z-index: 10;}
 .ngan1{position:absolute; background:url(images/home/ngan.png) no-repeat; width:188px; height:34px;top: 95px;left: 278px;}
 .ngan2{position:absolute; background:url(images/home/ngan.png) no-repeat; width:188px; height:34px;top: 136px;left: 279px;}
-.board{position:absolute; background:url(images/home/board.png) no-repeat; width:464px; height:264px;top: 34px;left: 549px;opacity:0;}
+.board{position:absolute; background:url(images/home/board_bk.png) no-repeat; width:464px; height:324px;top: 74px;left: 549px;opacity:0;}
 .book1{position:absolute; background: url(images/home/book1.png) no-repeat; width:165px; height:65px;top: 30px;left: 286px;opacity:0;}
 .flow{position:absolute; background:url(images/home/flow.png) no-repeat; width:76px; height:176px;top: 242px;left: 345px;opacity:0;}
 .ke{position:absolute; background:url(images/home/ke.png) no-repeat; width: 306px; height:81px;top: 419px;left: 245px;}
@@ -250,7 +252,7 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
 	height: 252px;
 	width: 479px;
 	left: 561px;
-	top: 44px;
+	top: 84px;
 	opacity:0;
 }
 #ImageS1 {
