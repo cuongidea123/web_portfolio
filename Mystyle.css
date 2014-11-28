@@ -148,7 +148,14 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
 }
 /*end MENU*/
 /*------------CSS HOME----------------*/
-
+.salon{position:absolute; background:url(images/home/salon.png) no-repeat; width:451px; height:161px;top: 439px;left: 536px;z-index: 10;}
+.ngan1{position:absolute; background:url(images/home/ngan.png) no-repeat; width:188px; height:34px;top: 95px;left: 278px;}
+.ngan2{position:absolute; background:url(images/home/ngan.png) no-repeat; width:188px; height:34px;top: 136px;left: 279px;}
+.board{position:absolute; background:url(images/home/board.png) no-repeat; width:464px; height:264px;top: 34px;left: 549px;opacity:0;}
+.book1{position:absolute; background: url(images/home/book1.png) no-repeat; width:165px; height:65px;top: 30px;left: 286px;opacity:0;}
+.flow{position:absolute; background:url(images/home/flow.png) no-repeat; width:76px; height:176px;top: 242px;left: 345px;opacity:0;}
+.ke{position:absolute; background:url(images/home/ke.png) no-repeat; width: 306px; height:81px;top: 419px;left: 245px;}
+.lamp{position:absolute; background:url(images/home/lamp.png) no-repeat; width:97px; height:269px;top: 237px;left: 1085px;opacity:0;}
 /*------------CSS HEAD----------------*/
 
 #HEAD {
@@ -244,6 +251,7 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
 	width: 479px;
 	left: 561px;
 	top: 44px;
+	opacity:0;
 }
 #ImageS1 {
 	position: absolute;
@@ -252,6 +260,7 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
 	left: 584px;
 	bottom: 198px;
 	z-index:10;
+	opacity:0;
 }
 #ImageS2 {
 	position: absolute;
@@ -260,6 +269,7 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
 	left: 584px;
 	bottom: 198px;
 	z-index:9;
+	opacity:0;
 }
 .distant {
 	padding-left: 6px;
@@ -323,6 +333,7 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
 	width: 26px;
 	left: 549px;
 	bottom: 235px;
+	opacity:0;
 }
 #Arrow2 {
 	background-repeat: no-repeat;
@@ -331,6 +342,7 @@ ul#nav li:nth-child(5) a {padding: 15px 64px;}
 	width: 26px;
 	left: 985px;
 	bottom: 235px;
+	opacity:0;
 }
 #BText1 {
 	font-family:OpeningNight-BAT;
@@ -857,3 +869,4 @@ a:active {
 	left: 40px;
 	top: 40px;
 }
+/*ani*/
